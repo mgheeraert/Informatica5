@@ -1,7 +1,8 @@
+from random import random, randint, seed
+
 #invoer
 a = float(input('geef a: '))
 b = float(input('geef b: '))
-from random import random, randint, seed
 
 #berekening
 getal_1 = (10**0)*a

@@ -1,8 +1,9 @@
+from math import sqrt as vierkantswortel
+
 #invoer
 a = float(input('geef de lengte van a:'))
 b = float(input('geef de lengte van b: '))
 c = 'schuine zijde'
-from math import sqrt as vierkantswortel
 
 #berekening
 rechthoekszijden = vierkantswortel((a**2) + (b**2))
