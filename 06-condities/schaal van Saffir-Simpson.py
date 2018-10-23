@@ -1,17 +1,15 @@
-windsnelheid = (input('Wat is de windsnelheid?: '))
+windsnelheid = float(input('Wat is de windsnelheid: '))
 
 #invoer
-if windsnelheid >= '119' and windsnelheid <= '249':
-    if windsnelheid >= '119' and windsnelheid <= '153':
-        print('categorie 1')
-    elif windsnelheid >= '154' and windsnelheid <= '177':
-        print('caterogie 2')
-    elif windsnelheid >= '178' and windsnelheid <= '209':
-        print('categorie 3')
-    else:
-        print('categorie 4')
+if 119 <= windsnelheid <= 153:
+    print('categorie 1')
+elif 154 <= windsnelheid <= 177:
+    print ('categorie 2')
+elif 178 <= windsnelheid <= 209:
+    print('categorie 3')
+elif 210 <= windsnelheid <= 249:
+    print ('categorie 4')
+elif windsnelheid <= 118:
+    print('geen orkaan')
 else:
-    if windsnelheid >= '250':
-        print('categorie 5')
-    else:
-        print('geen orkaan')
+    print('categorie 5')
